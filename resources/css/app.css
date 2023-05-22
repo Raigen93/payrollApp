@@ -1,0 +1,326 @@
+html {
+    font-family: sans-serif;
+    text-align: center;
+    accent-color: #7EC8E3;
+}
+
+
+body {
+    width: 75%;
+    background-color: white;
+}
+
+/* Header and footer styling */
+
+header,
+footer {
+    background-color: #051068;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.alert-success {
+    margin: 10px auto;
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(109, 238, 141, 0.2);
+    border: 1px solid green;
+    border-radius: 4px;;
+}
+
+.alert-danger {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(245, 182, 182, 0.863);
+    border: 1px solid red;
+    border-radius: 4px;;
+}
+
+.Approved {
+    color: green;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px dotted black;
+    border-radius: 3px;
+    max-width: 650px;
+}
+
+.article_date {
+    margin: 5px auto 5px 0;
+}
+
+.author {
+    display: block;
+    text-align: right;
+    padding: 5px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.company_news {
+    margin: 10px;
+    border: 2px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.content_centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.flex_horizon {
+    flex-basis: 50%;
+}
+
+.footer_button {
+    margin: 5px;
+}
+
+.footer_button a {
+    color:bisque;
+    font-size: large;
+}
+
+.form {
+    margin: 20px;
+}
+
+.form input {
+   display: block;
+   margin: 15px auto;
+}
+
+.icon {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    width: 100px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 0px auto;
+    width: 75%;
+    padding: 0px 15px;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main_content {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.news_body {
+    text-indent: 1rem;
+    text-align: left;
+}
+
+.news_title {
+    text-decoration: underline;
+    font-size: large;
+}
+
+.pagination {
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.page-item {
+    float:left;
+}
+
+.Refused {
+    color: red;
+}
+
+/*styling for project hours table */
+
+.dept_hours {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.row_body {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.row_head {
+    display: flex;
+    text-decoration: underline;
+    font-size: large;
+    justify-content: space-around;
+    margin: auto 5px;
+}
+
+.table {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: 5px auto;
+}
+
+.table_row {
+    margin: 5px;
+    padding: 15px 0px;
+    border-top: 1px dashed black;
+    flex-basis: 100%;
+}
+
+.time_off {
+    display:flex; 
+    flex-direction: column;
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+.time_off span {
+    padding: 5px;
+}
+
+.total_hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+/* styling for paystubs */
+.info {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.paystub {
+    display: flex;
+    border: 1px black dotted;
+    padding: 15px;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px;
+}
+
+.paystubs {
+    margin: 15px auto;
+    max-width: 600px;
+}
+
+.slot {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.time {
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    margin: 0;
+}
+
+.timetable {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+#splash {
+    height: 150px;
+    width: 80%;
+    border-radius: 2%;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        width: 99%;
+        padding: 0;
+    }
+
+    .main_content,
+    .main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

@@ -79,7 +79,7 @@
         <a href="/weekly_time"> PayStubs </a>
     </span>
     <span class="footer_button">
-        <a href="/pto"> PTO </a>
+        <a href="/time_off"> PTO </a>
     </span>
     @else 
     <span> {{date('D, M d Y')}} </span>
